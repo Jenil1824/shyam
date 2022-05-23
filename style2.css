@@ -1,0 +1,276 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header
+{
+	background-image:linear-gradient(rgba(0,0.5,0.5,0.5),rgba(0,0.5,0.5,0.5)), url(white.png);
+	height: 800px;
+	background-size: cover;
+	background-position: center;
+}
+
+ul
+{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+	margin-right: 25px;
+}
+
+ul li
+{
+	display: inline-block;
+}
+
+ul li a
+{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.4s ease;
+}
+
+ul li a:hover
+{
+	backgrounf-color: #fff;
+	color: #700;
+}
+
+ul li.active a
+{
+	float: left;
+	width: 150px;
+	height: auto;	
+}
+
+.logo img
+{
+	float: left;
+	width: 75px;
+	height: 75px;
+}
+
+.main
+{
+
+}
+
+.title
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1
+{
+	color: #fff;
+	font-size: 70px;
+}
+
+.button
+{
+	position: absolute;
+	top: 95%;
+	left: 90%;
+	transform: translate(-50%,-50%);
+}
+
+.btn
+{
+	border: 1px solid transparent;
+	padding-right: 2px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.4s ;
+	animation-name: flicker;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes flicker
+{
+from {background-color: maroon;}
+to {background-color: lightblue;}
+}
+
+
+.btn:hover
+{
+	backgrounf-color: #fff;
+	color: #700;
+}
+
+.front h1{
+    font-family: cursive;
+    font-size: 48px;
+}
+.front{
+    display: flex;
+}
+.front .left{
+    width:700px;
+    height:619px;
+    align-items: center;
+}
+.front .left p{
+    font-family: cursive;
+    font-size: 24px;
+}
+.front .right{
+    margin-left: 200px;
+}
+.about p{
+    font-size: 20px;
+}
+.main p{
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.context-wrapper
+{
+	width: 80%;
+	height: 100%
+	margin: 4$ 10$ 5% 10%;	
+}
+
+.context-wrapper 
+{
+	width: 100%;
+}
+
+.text-wrapper
+{
+	width: 100%;
+	position: relative;
+	margin-top: -50%;
+	margin-bottom: -50%;
+}
+
+.text-wrapper h1
+{
+	text-align: center;
+	color: #ffffff;
+	font-size: 300%;
+	font-family: cursive;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: lightblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: maroon;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: green;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.container
+{
+	width: 30%;
+	margin: auto;
+	overflow: auto;
+	float: left;
+}
+
+.container1
+{
+	float: left;
+      width: 50px;
+	margin-left: 0px;
+      height: 25px;
+}                                      
+
+.container2
+{
+	width: 50px;
+	margin-right: 220px;
+	height: 160px;
+	float: right;
+}
+
+.gallery
+{
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 390px;
+}
+
+.gallery img
+{
+	width: 390px;
+	height: 150px;
+}
+
+.gallery1
+{
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: right;
+	width: 390px;
+}
+
+.gallery1 img
+{
+	width: 390px;
+	height: 150px;
+}
+.desc
+{
+	padding: 15px;
+	text-align: center;
+	background: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
